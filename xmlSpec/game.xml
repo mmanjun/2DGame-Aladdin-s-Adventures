@@ -1,0 +1,202 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Aladdin's Adventures By Manasa Manjunath</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>200</frameMax>
+<username>mmanjun</username>
+<numberOfOrbs>20</numberOfOrbs>
+
+<view>
+  <width>854</width>
+  <height>470</height>
+</view>
+
+<world>
+  <width>3000</width>
+  <height>500</height>
+</world>
+<safeDistance>75</safeDistance>
+<castle>
+  <file>images/castle2.png</file>
+    <src x="10" y="0"/>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</castle>
+
+<sky>
+  <file>images/road.png</file>
+    <src x="0" y="0"/>
+   <width>640</width>
+  <height>480</height>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+   <loc x="320" y="240"/>
+  <transparency>true</transparency>
+</sky>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+<aladdin>
+  <file>images/aladdin.png</file>
+  <startLoc x="120" y="370"/>
+  <frames>8</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+   <chunk>
+    <size>3</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</aladdin>
+
+<jasmine>
+  <file>images/jasmine.png</file>
+  <startLoc x="2920" y="370"/>
+  <frames>8</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>3</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</jasmine>
+
+<sorcerer>
+  <file>images/sorcerer.png</file>
+  <startLoc x="2720" y="300"/>
+  <frames>8</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+   <chunk>
+    <size>3</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</sorcerer>
+
+<lantern>
+  <file>images/lanny.png</file>
+  <cushion>10</cushion>
+  <scale min="0.5" max="1.8"/>
+  <src x="0" y="0"/>
+  <width>32</width>
+  <height>32</height>
+  <loc x="420" y="10"/>
+  <speed x="100" y="100"/>
+  <transparency>true</transparency>
+</lantern>
+
+<lamp>
+  <file>images/lamp.png</file>
+    <speedX>100</speedX>
+  <speedY>1</speedY>
+  <speed x="100" y="100"/>
+   <cushion>10</cushion>
+  <startLoc x="720" y="100"/>
+   <loc x="1020" y="240"/>
+  <lampcount>3</lampcount>
+   <chunk>
+    <size>3</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</lamp>
+
+<knife>
+  <file>images/dagger.png</file>
+  <startLoc x="120" y="100"/>
+  <frames>1</frames>
+  <frameInterval>10</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>20</width>
+  <height>10</height>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <maxDistance>400</maxDistance>
+  <transparency>false</transparency>
+</knife>
+
+<spell>
+  <file>images/spell.png</file>
+  <spellcount>10</spellcount>
+    <frames>1</frames>
+      <frameInterval>10</frameInterval>
+   <cushion>50</cushion>
+  <nS>3</nS>
+  <srcX>10</srcX>
+  <srcY>120</srcY>
+  <width>32</width>
+  <height>46</height>
+  <loc x="1020" y="240"/>
+  <speedX>100</speedX>
+  <speedY>1</speedY>
+  <spellSpeedY>1</spellSpeedY>
+  <transparency>true</transparency>
+  <speed x="100" y="100"/>
+  <chunk>
+    <size>2</size>
+    <distance>100</distance>
+  </chunk>
+</spell>
+
+<ShootRight>
+  <file>images/aladdinRight.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>2</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>62</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</ShootRight>
+
+
+<ShootLeft>
+  <file>images/aladdinLeft.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>2</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>62</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+<chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</ShootLeft>
+
+</GameData>
